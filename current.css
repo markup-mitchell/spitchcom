@@ -14,6 +14,16 @@ font-size: xx-large;}
   padding: 20px 0px 20px 0px;
 }
 
+#sidebar {
+    position:fixed;
+    height:100%;
+    width: 100px;
+    background-color: #303133;
+    overflow-y: auto;
+}
+img {
+  max-width: 100%;
+}
 
 .bg-2 {
   display: flex;
@@ -35,5 +45,7 @@ font-size: xx-large;}
   padding: 20px;
   margin: 20px;
 }
+
+
 
 /*---------------------------*/
