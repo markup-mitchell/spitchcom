@@ -1,0 +1,35 @@
+.title {/*font-family: 'Monda', sans-serif; */
+font-family: 'Bevan', cursive;
+font-size: xx-large;}
+
+.bg-1 {
+  text-align:center;
+  font-family:Helvetica;
+  color:#FFFFFF;
+  background-color: #A79E65;
+  padding: 20px 0px 20px 0px;
+}
+
+
+.bg-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align:center;
+  font-family:Helvetica;
+  color:#FFFFFF;
+  background-color: #E2D893;
+  padding: 20px 0px 20px 0px;
+}
+
+.folio {
+  width: 100px;
+	height: 100px;
+	background: #73AFB6;
+	color: white;
+	text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+/*---------------------------*/
