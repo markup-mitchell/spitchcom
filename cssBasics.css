@@ -33,12 +33,9 @@ body{
 	//color: white;
 	//background: #F26E53;
 	//background: #FA573C;
-	background: #FE5B54;
+	background: ;
 }
 
-p {
-	font-family: 'Roboto', sans-serif;
-}
 
 h2 {
 	font-family: 'Comfortaa', cursive;
@@ -48,11 +45,25 @@ h2 {
 
 }
 
+p, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h3:hover{
+	font-style: italic;
+
+}
+
 svg{
 	//fill: #F26E53;
 	width: 60px;
 	height: auto;
 	padding: 10px 0px 0px 0px;
+}
+
+svg:hover{
+	fill: #FE5B54;
+
 }
 
 .columnText {
@@ -68,3 +79,4 @@ svg{
     -moz-column-width: 100px; /* Firefox */
     column-width: 100px;
 }
+
