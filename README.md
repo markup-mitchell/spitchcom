@@ -1,4 +1,4 @@
-# http:\\spitchell.com
+# spitchell.com
 
 Ongoing effort to make the best personal website I can!
 
