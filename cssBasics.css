@@ -24,7 +24,7 @@ body{
 	flex-direction:column;
 	// justify-content: center; //I don't want the content of all containers to be centere
 	// background: #AAAAAA;
-	width: 75%;
+	width: 70%;
 	padding: 0px 0px 0px 300px; // incrementing the 2nd param is irrelevant while the div's invisible!
 }
 
@@ -69,7 +69,10 @@ svg{
 
 svg:hover{
 	fill: #FE5B54;
+}
 
+*:focus {
+    outline: none;  // ensure clickable elements have some other highlight method for reasons of accessibility! OR web brutalise it up and make the boxes huge and chunky
 }
 
 .columnText {
