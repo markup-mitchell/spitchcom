@@ -16,6 +16,14 @@ body{
   padding: 10px 20px 0px 25px; // padding lets you change the length of the content without cramping. Ah!
 }
 
+#photoBox{
+
+float:right;
+	position: absolute;
+	right: 0px;
+	top:0px;
+}
+
 .titleContainer{
 	display: flex;
 	flex-direction:row;
