@@ -17,7 +17,8 @@ body{
 }
 
 #author {
-	width:500px;
+	width:100%;
+	padding: 0px 0px 0px 240px;
 }
 
 .titleContainer{
@@ -32,7 +33,7 @@ body{
 	display: flex;
 	flex-direction:column;
 	// justify-content: center; //I don't want the content of all containers to be centere
-	// background: #AAAAAA;
+	// background: #AAAAAA;	
 	width: 70%;
 	padding: 0px 0px 0px 250px; // incrementing the 2nd param is irrelevant while the div's invisible!
 }
