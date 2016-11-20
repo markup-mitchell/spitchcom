@@ -24,9 +24,24 @@ body{
 }
 
 #author {
-	width:300px;
-	padding: 0px 0px 0px 230px;
+	display:flex;
+    background-image: url('important.png');
+	width:70%;
+	padding: 0px 0px 0px 300px;
 }
+
+#banner {
+	width: 100%;
+    height: auto;
+    background-image: url('important.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+/*img {
+  //  width: 100%;
+    //height: auto;
+} */
 
 .titleContainer{
 	display: flex;
@@ -53,11 +68,12 @@ body{
 	margin: 0px 0px 0px 00px;
 	font-family: 'Comfortaa', cursive;
 	font-size: x-large;
+	//text-decoration: underline;
 	//color: white;
 	//background: #F26E53;
 	//background: #FA573C;
 	//background: #FE5B54;
-	background: #a2a2a2;
+	//background: #a2a2a2;
 }
 
 
