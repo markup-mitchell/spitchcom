@@ -10,10 +10,10 @@ body{
 	// background-color: pink; /*for scoping out the elements only!*/
 	display: flex;
 	flex-direction: column;
-	margin: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 75px;
 	position: fixed; // how to keep fixed relative to viewport, but move/grow relative to the sideBar?!
-	top: 100px;
-  padding: 10px 20px 0px 25px; // padding lets you change the length of the content without cramping. Ah!
+ // padding: 10px 20px 0px 100px; // padding lets you change the length of the content without cramping. Ah!
+
 }
 
 #author {
