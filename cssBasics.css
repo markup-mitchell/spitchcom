@@ -3,6 +3,13 @@ body{
 	margin:0%;
 }
 
+a {
+	text-decoration: none;}
+
+a:visited{
+	color:inherit;
+	}
+	
 #wrapper {
 	width: auto; // not currently used. might be used to trammel content
 }
@@ -10,25 +17,30 @@ body{
 
 	display: flex;
 	flex-direction: column;
-	margin: 0px 0px 0px 50px;
+	margin: 160px 0px 0px 50px;
 	height: 100%;
 	width: auto;
 	position: fixed;
-	justify-content: center;
+	//justify-content: center;
 	padding-right: 60px;
 	padding-left: 60px;
 }
 
-
-#banner {
-	width: 63%;
-    height: 560px;
-	
-	margin-left: 300px;
-
- 
-    background-size: cover;
+#banner{
+   background: url("learner4.png") no-repeat top left fixed	 ;
+   background-size: auto;
+   height: 320px; 
 } 
+
+/* #banner {
+	height:280px;
+	max-width: 90%;
+	margin-left: 300px; 
+	background-image: url('learner2.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}  */
 
 .titleContainer{
 	display: flex;
@@ -44,8 +56,7 @@ body{
 }
 
 #title{
-	//margin-top: 10px;
-	padding: 50px 0px 50px 350px;
+	padding: 50px 0px 0px 350px;
 	font-family: 'Comfortaa', cursive;
 	font-size: x-large;
 	//text-decoration: underline;
@@ -55,6 +66,13 @@ body{
 	//background: #FE5B54;
 	//background: #a2a2a2;
 }
+
+.gallery {
+	
+	justify-content: flex-start;
+	display: flex;
+	flex-direction: row;
+	}
 
 
 h2 {
@@ -94,7 +112,7 @@ svg:hover{
 .columnText {
 
 		text-align: justify;
-		width: 90%;
+		max-width: 70%;
 		-webkit-column-count: 2; /* Chrome, Safari, Opera */
 		-moz-column-count: 2; /* Firefox */
 		column-count: 2;
@@ -110,3 +128,11 @@ svg:hover{
  		-moz-column-gap: 40px; /* Firefox */
  		column-gap: 40px;
 		}
+
+.thumbnail {
+background-color: #FE5B54;
+width: 140px;
+height: 150px;
+margin-top: 30px;
+
+}
