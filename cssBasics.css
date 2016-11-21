@@ -1,49 +1,83 @@
 body{
 	width:100%;
+	margin:0%;
+}
+
+a {
+	text-decoration: none;}
+
+a:visited{
+	color:inherit;
+	}
+	
+#wrapper {
+	width: auto; // not currently used. might be used to trammel content
 }
 #sideBox{
-	// color:white;
-	// background-color: pink; /*for scoping out the elements only!*/
+
 	display: flex;
 	flex-direction: column;
-	position: fixed; // how to keep fixed relative to viewport, but move/grow relative to the sideBar?!
-	top: 100px;
-  padding: 10px 20px 0px 25px; // padding lets you change the length of the content without cramping. Ah!
+	margin: 160px 0px 0px 50px;
+	height: 100%;
+	width: auto;
+	position: fixed;
+	//justify-content: center;
+	padding-right: 60px;
+	padding-left: 60px;
 }
+
+#banner{
+   background: url("learner4.png") no-repeat top left fixed	 ;
+   background-size: auto;
+   height: 320px; 
+} 
+
+/* #banner {
+	height:280px;
+	max-width: 90%;
+	margin-left: 300px; 
+	background-image: url('learner2.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}  */
 
 .titleContainer{
 	display: flex;
 	flex-direction:row;
-	// justify-content: center; //I don't want the content of all containers to be centere
-	// background: #AAAAAA;
 	padding: 0px 0px 0px 200px; // incrementing the 2nd param is irrelevant while the div's invisible!
 }
 
 .contentContainer{
 	display: flex;
 	flex-direction:column;
-	// justify-content: center; //I don't want the content of all containers to be centere
-	// background: #AAAAAA;
 	width: 70%;
 	padding: 0px 0px 0px 300px; // incrementing the 2nd param is irrelevant while the div's invisible!
 }
 
 #title{
-
-	//text-align: center;
-	//justify-content: center;
-	padding: 40px 0px 20px 350px;
-	margin: 0px 0px 0px 00px;
+	padding: 50px 0px 0px 350px;
 	font-family: 'Comfortaa', cursive;
 	font-size: x-large;
+	//text-decoration: underline;
 	//color: white;
 	//background: #F26E53;
 	//background: #FA573C;
-	background: #F26E53;
+	//background: #FE5B54;
+	//background: #a2a2a2;
 }
+
+.gallery {
+	
+	justify-content: flex-start;
+	display: flex;
+	flex-direction: row;
+	}
 
 
 h2 {
+	color:#FE5B54;
+	margin: 50px 0px 0px 0px;
 	font-family: 'Comfortaa', cursive;
 	//font-family: 'Josefin Sans', sans-serif;
 	//font-family: 'Pacifico', cursive;
@@ -76,21 +110,29 @@ svg:hover{
 }
 
 .columnText {
-		//width: auto;
+
+		text-align: justify;
+		max-width: 70%;
 		-webkit-column-count: 2; /* Chrome, Safari, Opera */
 		-moz-column-count: 2; /* Firefox */
 		column-count: 2;
 		-webkit-column-rule: 1px solid ; /* Chrome, Safari, Opera */
 		-moz-column-rule: 1px solid ; /* Firefox */
-		column-rule: 1px solid ;
-
-		text-align: justify;
+		column-rule: 1px solid ;	
 
 		-webkit-column-width: 50px; /* Chrome, Safari, Opera */
 		-moz-column-width: 100px; /* Firefox */
 		column-width: 100px;
 
 		-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
- -moz-column-gap: 40px; /* Firefox */
- column-gap: 40px;
+ 		-moz-column-gap: 40px; /* Firefox */
+ 		column-gap: 40px;
 		}
+
+.thumbnail {
+background-color: #FE5B54;
+width: 140px;
+height: 150px;
+margin-top: 30px;
+
+}
