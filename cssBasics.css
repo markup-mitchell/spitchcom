@@ -9,7 +9,7 @@ a {
 a:visited{
 	color:inherit;
 	}
-	
+
 #wrapper {
 	width: auto; // not currently used. might be used to trammel content
 }
@@ -29,23 +29,23 @@ a:visited{
 #banner{
    background: url("learner4.png") no-repeat top left fixed	 ;
    background-size: auto;
-   height: 320px; 
-} 
+   height: 320px;
+}
 
 /* #banner {
 	height:280px;
 	max-width: 90%;
-	margin-left: 300px; 
+	margin-left: 300px;
 	background-image: url('learner2.png');
 	background-repeat: no-repeat;
 	background-size: contain;
-	
+
 }  */
 
 .titleContainer{
 	display: flex;
 	flex-direction:row;
-	padding: 0px 0px 0px 200px; // incrementing the 2nd param is irrelevant while the div's invisible!
+	paddinPg: 0px 0px 0px 200px; // incrementing the 2nd param is irrelevant while the div's invisible!
 }
 
 .contentContainer{
@@ -68,11 +68,19 @@ a:visited{
 }
 
 .gallery {
-	
+
 	justify-content: flex-start;
 	display: flex;
 	flex-direction: row;
 	}
+
+.linksContainer{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 70%;
+}
 
 
 h2 {
@@ -118,7 +126,7 @@ svg:hover{
 		column-count: 2;
 		-webkit-column-rule: 1px solid ; /* Chrome, Safari, Opera */
 		-moz-column-rule: 1px solid ; /* Firefox */
-		column-rule: 1px solid ;	
+		column-rule: 1px solid ;
 
 		-webkit-column-width: 50px; /* Chrome, Safari, Opera */
 		-moz-column-width: 100px; /* Firefox */
