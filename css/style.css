@@ -5,11 +5,14 @@ a:hover {
 	color: #FE5B54;
 }
 
+i {
+	padding: 7px;
+}
 #contentWrap {
 	height: 2000px;
 /* 	background-color: pink; */
-	max-width: 70%;
-	margin: 0% 10% 0px 30%;
+	max-width: 80%;
+	margin: 0% 15% 0px 20%;
 }
 
 #banner {
@@ -22,15 +25,13 @@ a:hover {
 	height: 550px;
 	width: auto;
 }
-	
+
 #sideBox{
-/* 	background-color: red; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	margin: 100px 0px 0px 25px;
-/* 	height: 100%; */
+	margin: 60px 0px 0px 10px;
 	width: auto;
 	position: fixed;
 	padding-right: 60px;
@@ -45,10 +46,12 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-family: 'Comfortaa', cursive;
+	color: #FE5B54;
+	font-size: 30px;
+}
 h3 {
 	font-family: 'Comfortaa', cursive;
 	font-size: 25px;
 }
-	
-
-
