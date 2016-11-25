@@ -1,0 +1,54 @@
+a { color: #222;
+		text-decoration: none;}
+
+a:hover {
+	color: #FE5B54;
+}
+
+#contentWrap {
+	height: 2000px;
+/* 	background-color: pink; */
+	max-width: 70%;
+	margin: 0% 10% 0px 30%;
+}
+
+#banner {
+/* 	background-color: red; */
+	background-image: url(https://c7.staticflickr.com/6/5567/31196336726_1d0b92c2e4_z.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	background-position: top center;
+	height: 550px;
+	width: auto;
+}
+	
+#sideBox{
+/* 	background-color: red; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 100px 0px 0px 25px;
+/* 	height: 100%; */
+	width: auto;
+	position: fixed;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+h1 {
+        font-family: 'Comfortaa', cursive;
+/* 	color: #FE5B54; */
+	color: #111;
+	font-size: 50px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 25px;
+}
+	
+
+
