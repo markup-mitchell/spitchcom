@@ -26,7 +26,7 @@ h2 {
 
 h3 {
 	font-family: 'Comfortaa', cursive;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 p {
@@ -60,4 +60,17 @@ p {
 	position: fixed;
 	padding-right: 60px;
 	padding-left: 60px;
+}
+
+.screenGrabs {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+#appVid {
+		display: flex; // This all seems like total overkill. Rationalise!
+		flex-direction: row;
+		justify-content: center;
 }
