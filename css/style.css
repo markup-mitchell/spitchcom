@@ -5,12 +5,36 @@ a:hover {
 	color: #FE5B54;
 }
 
-i {
+i { // FONTAWESOME ICONS
+	margin: 2px;
 	padding: 7px;
 }
-#contentWrap {
+
+h1 {
+	font-family: 'Comfortaa', cursive;
+	/* 	color: #FE5B54; */
+	color: #111;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Comfortaa', cursive;
+	color: #FE5B54;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Roboto' , sans-serif;
+}
+#contentWrap { // this should be the central div that keeps the content flexboxes bound
 	height: 2000px;
-/* 	background-color: pink; */
+	/* 	background-color: pink; */
 	max-width: 80%;
 	margin: 0% 15% 0px 20%;
 }
@@ -30,28 +54,10 @@ i {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
-	margin: 60px 0px 0px 10px;
+	align-items: center;  // make a note of this - gist?
+	margin: 	60px 0px 0px 10px;
 	width: auto;
 	position: fixed;
 	padding-right: 60px;
 	padding-left: 60px;
-}
-
-h1 {
-        font-family: 'Comfortaa', cursive;
-/* 	color: #FE5B54; */
-	color: #111;
-	font-size: 50px;
-	text-align: center;
-}
-
-h2 {
-	font-family: 'Comfortaa', cursive;
-	color: #FE5B54;
-	font-size: 30px;
-}
-h3 {
-	font-family: 'Comfortaa', cursive;
-	font-size: 25px;
 }
