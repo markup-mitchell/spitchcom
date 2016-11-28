@@ -33,6 +33,11 @@ p {
 	font-family: 'Roboto' , sans-serif;
 	text-align: justify;
 }
+ /*img {
+	 width: 150px;
+	 height: auto;
+
+ }*/
 #contentWrap { // this should be the central div that keeps the content flexboxes bound
 	height: 2000px;
 	/* 	background-color: pink; */
@@ -66,15 +71,24 @@ p {
 .screenGrabs {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+}
+
+.thumbNail {
+  display: flex;
+	flex-direction: row;
+	max-width: 50%;
 
 }
 
 #about {
-		display: flex; // This all seems like total overkill. Rationalise!
+		display: flex; // This all seems like total overkill. Rationalise! (post application)
 		flex-direction: row;
 		justify-content: center;
+}
 
+iframe {
+	display: block;
+	margin: auto;
 }
 
 .textBox {
