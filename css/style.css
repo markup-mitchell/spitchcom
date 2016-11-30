@@ -1,0 +1,109 @@
+a { color: #222;
+		text-decoration: none;}
+
+a:hover {
+	color: #FE5B54;
+}
+
+i { /* FONTAWESOME ICONS - these replace my home-grown svg co-ordinate lists */
+	margin: 2px;
+	padding: 7px;
+}
+
+h1 {
+	font-family: 'Comfortaa', cursive;
+	/* 	color: #FE5B54; */
+	color: #111;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Comfortaa', cursive;
+	color: #FE5B54;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 25px;
+}
+
+p {
+	font-family: 'Roboto' , sans-serif;
+	text-align: justify;
+}
+
+#contentWrap { // this should be the central div that keeps the content flexboxes bound
+	/* 	background-color: pink; */
+	max-width: 80%;
+	margin: 0% 10% 0px 25%;
+}
+
+#banner {
+/* 	background-color: red; */
+	background-image: url(https://c7.staticflickr.com/6/5567/31196336726_1d0b92c2e4_z.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	background-position: top center;
+	height: 550px;
+	margin-top: -10px; /* Should bleed off the top of the page... problem on other devices/browsers? */
+	width: auto;
+	margin-left: 10%;
+}
+
+#sideBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;  // make a note of this - gist?
+	width: auto;
+	position: fixed;
+	padding-right: 60px;
+	padding-left: 100px;
+	padding-top: 60px;
+}
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+		justify-content: center;
+		}
+
+.thumb {background:#eee;
+	max-width: 300px;
+	padding: 5px;
+	margin: 5px;}
+
+article {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-width: 200px;
+	-moz-column-width: 200px;
+	column-width: 200px;
+	}
+
+
+@media all and (min-width: 768px)
+{.thumb {text-align: center;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+ .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+}
+
+
+/*iframe {
+	display: block;
+	margin: auto;
+}*/
+
+#footer {
+	color: #888;
+	background-color: #eee;
+	padding: 50px;
+	width: auto;
+}

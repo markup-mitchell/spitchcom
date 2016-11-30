@@ -1,0 +1,112 @@
+a { color: #222;
+		text-decoration: none;}
+
+a:hover {
+	color: #FE5B54;
+}
+
+i { // FONTAWESOME ICONS
+	margin: 2px;
+	padding: 7px;
+}
+
+
+
+
+h1 {
+	font-family: 'Comfortaa', cursive;
+	/* 	color: #FE5B54; */
+	color: #111;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Comfortaa', cursive;
+	color: #FE5B54;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 25px;
+}
+
+p {
+	font-family: 'Roboto' , sans-serif;
+	text-align: justify;
+}
+ /*img {
+	 width: 150px;
+	 height: auto;
+
+ }*/
+#contentWrap { // this should be the central div that keeps the content flexboxes bound
+	height: 2000px;
+	/* 	background-color: pink; */
+	max-width: 80%;
+	margin: 0% 15% 0px 20%;
+}
+
+#banner {
+/* 	background-color: red; */
+	background-image: url(https://c7.staticflickr.com/6/5567/31196336726_1d0b92c2e4_z.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	background-position: top center;
+	height: 550px;
+	width: auto;
+}
+
+#sideBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;  // make a note of this - gist?
+	margin: 	60px 0px 0px 10px;
+	width: auto;
+	position: fixed;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+.thumb {background:#eee;
+		max-width: 400px;
+		max-height: 300px;}
+
+
+@media all and (min-width: 768px) 
+{.thumb {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+ .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+}
+
+#gallery {
+
+}
+
+iframe {
+	display: block;
+	margin: auto;
+}
+
+
+
