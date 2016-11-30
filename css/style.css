@@ -5,7 +5,7 @@ a:hover {
 	color: #FE5B54;
 }
 
-i { // FONTAWESOME ICONS
+i { /* FONTAWESOME ICONS - these replace my home-grown svg co-ordinate lists */
 	margin: 2px;
 	padding: 7px;
 }
@@ -35,10 +35,9 @@ p {
 }
 
 #contentWrap { // this should be the central div that keeps the content flexboxes bound
-	height: 2000px;
 	/* 	background-color: pink; */
 	max-width: 80%;
-	margin: 0% 15% 0px 20%;
+	margin: 0% 10% 0px 25%;
 }
 
 #banner {
@@ -51,6 +50,7 @@ p {
 	height: 550px;
 	margin-top: -10px; /* Should bleed off the top of the page... problem on other devices/browsers? */
 	width: auto;
+	margin-left: 10%;
 }
 
 #sideBox{
@@ -58,11 +58,11 @@ p {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;  // make a note of this - gist?
-	margin: 	60px 0px 0px 10px;
 	width: auto;
 	position: fixed;
 	padding-right: 60px;
-	padding-left: 60px;
+	padding-left: 100px;
+	padding-top: 60px;
 }
 
 
@@ -76,8 +76,7 @@ p {
 		}
 
 .thumb {background:#eee;
-	max-width: 400px;
-	max-height: 300px;
+	max-width: 300px;
 	padding: 5px;
 	margin: 5px;}
 
@@ -97,7 +96,14 @@ article {
 }
 
 
-iframe {
+/*iframe {
 	display: block;
 	margin: auto;
+}*/
+
+#footer {
+	color: #888;
+	background-color: #eee;
+	padding: 50px;
+	width: auto;
 }
