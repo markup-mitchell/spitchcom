@@ -1,4 +1,4 @@
-a { color: #222; /* less harsh than black, but close enough to not be too noticable */
+a { color: #222;
 		text-decoration: none;}
 
 a:hover {
@@ -13,7 +13,7 @@ i { // FONTAWESOME ICONS
 h1 {
 	font-family: 'Comfortaa', cursive;
 	/* 	color: #FE5B54; */
-	color: #111; /* does weighting these greys so carefully really matter?! */
+	color: #111;
 	font-size: 50px;
 	text-align: center;
 }
@@ -49,15 +49,15 @@ p {
 	background-size: contain;
 	background-position: top center;
 	height: 550px;
-	margin-top: -10px; /* Should bleed off the top of the page... problem on other devices/browsers? */
 	width: auto;
+	margin-top: -10px; // image shouuld bleed off top - problem in other browsers?
 }
 
-#sideBox{
+#sideBox{ /* Need to stop this going over content wrapper on small windows */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;  // make a note of this - gist?
+	align-items: center;  /* make a note of this - gist? */
 	margin: 	60px 0px 0px 10px;
 	width: auto;
 	position: fixed;
@@ -65,32 +65,22 @@ p {
 	padding-left: 60px;
 }
 
-
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    text-align: center;
+.screenGrabs {
+	display: flex;
+	flex-direction: row;
 }
 
-.flex-container > * {
-    padding: 15px;
-    -webkit-flex: 1 100%;
-    flex: 1 100%;
+.thumbNail {
+  display: flex;
+	flex-direction: row;
+	max-width: 200px;
+
 }
 
-.words-left {
-    text-align: left;
-}
-.thumb {background:#;
-		max-width: 400px;
-		max-height: 300px;}
-
-
-@media all and (min-width: 768px)
-{.thumb {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
- .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+#about {
+		display: flex; // This all seems like total overkill. Rationalise! (post application)
+		flex-direction: row;
+		justify-content: center;
 }
 
 #gallery {
@@ -100,4 +90,9 @@ p {
 iframe {
 	display: block;
 	margin: auto;
+}
+
+.textBox {
+	padding: 10px;
+	margin: 5px;
 }
