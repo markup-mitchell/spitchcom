@@ -8,6 +8,7 @@ a:hover {
 i { /* FONTAWESOME ICONS - these replace my home-grown svg co-ordinate lists */
 	margin: 2px;
 	padding: 7px;
+	align-items: left;
 }
 
 h1 {
@@ -54,15 +55,16 @@ p {
 }
 
 #sideBox{
-	display: flex;
-	flex-direction: column;
+	display: inline-block;
+	/*flex-direction: column; FLEX RUINS tablet/phone display! aarg
 	justify-content: space-between;
-	align-items: center;  // make a note of this - gist?
+	align-items: center;  // make a note of this - gist? */
+	text-align: center;
 	width: auto;
 	position: fixed;
 	padding-right: 60px;
 	padding-left: 100px;
-	padding-top: 60px;
+	padding-top: 30px;
 }
 
 
@@ -81,11 +83,11 @@ p {
 	margin: 5px;}
 
 article {
-	-webkit-column-count: 2;
+	/*-webkit-column-count: 2;*/
 	-moz-column-count: 2;
 	column-count: 2;
-	-webkit-column-width: 200px;
-	-moz-column-width: 200px;
+	/*-webkit-column-width: 200px; */
+	/*-moz-column-width: 200px; This makes things bad - too narrow. WHY?! */ 
 	column-width: 200px;
 	}
 
